@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body{
+    margin:0px;
+    padding: 0px;
+    background: #28262e;
+    font-family: montserrat, sans-serif;
+    overflow-x: hidden ;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-slider-thumb{
+    background: #c23843;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #b30000;
+
+}
+.section-1{
+    background: url(../swadde/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+}
+.col-div-3{width: 25%; float: left;}
+.col-div-6{width: 50%; float: left;}
+.clearfix{ 
+    clear: both;
+}
+.logo{ 
+    color: #dcdada;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.logo span{
+    color: #cb3541;
+}
+.nav li{ 
+    list-style: none;
+    float: left;
+    padding: 20px;
+    }
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}   
+.get-btn{
+   padding: 10px 30px; 
+   font-size: 17px;
+   background: #c23843;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   float: right;
+   margin-top: 25px;
+   cursor: pointer;
+}
+.menu-incop{
+    display: none;
+}
+.banner-heading{
+    text-align: center;
+    transform: translate(0%, -50%);
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    right: 50px;
+    
+}
+.h1{
+    text-align: center;
+    font-size: 65px;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+.p1{
+    text-align: center;
+    color: white;
+    font: 18px;
+}
+.learn{
+    font-size: 17px;
+    padding: 10px 30px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-2{
+    text-align: center;
+    background: url(../swadde/house.jpg);
+    height: 80vh;
+    background-size: cover;
+    padding-top: 15%;
+    margin-top: -72px;
+    background-position: top;
+}
+.h2{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+.p2{
+    color: #dcdada;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    width: 666px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.hr{
+    height: 3px;
+    background: #c23843;
+    border: none;
+    width: 100px;
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+.box{
+    background: #2f2e33;
+    height: 200px;
+    width: 240px;
+    padding: 10px;
+}
+ 
